@@ -66,7 +66,7 @@ export default {
 
 #### 页面初始化时的 console
 
-![页面初始化时的 console](./img/init.gif)
+![页面初始化时的 console](https://github.com/fxss5201/vue-lifecycle/blob/master/img/init.gif)
 
 **结论：**
 
@@ -172,10 +172,10 @@ export default {
 #### 路由切换时的 console
 
 路由切换至about时的 console:
-![路由切换至about时的 console](./img/about.png)
+![路由切换至about时的 console](https://github.com/fxss5201/vue-lifecycle/blob/master/img/about.png)
 
 路由切换至home时的 console:
-![路由切换至home时的 console](./img/home.png)
+![路由切换至home时的 console](https://github.com/fxss5201/vue-lifecycle/blob/master/img/home.png)
 
 **结论：**
 
@@ -196,10 +196,10 @@ export default {
 `Home.vue` 中点击 home按钮A/home按钮B 使用 v-if/v-show 切换显示隐藏 组件A/组件B。
 
 `v-if` 组件A:
-![v-if 组件A](./img/home-if.png)
+![v-if 组件A](https://github.com/fxss5201/vue-lifecycle/blob/master/img/home-if.png)
 
 `v-show` 组件B：
-![v-show 组件B](./img/home-show.png)
+![v-show 组件B](https://github.com/fxss5201/vue-lifecycle/blob/master/img/home-show.png)
 
 **结论：**
 
@@ -219,10 +219,10 @@ export default {
 `HomeAComponent.vue` 中点击 按钮1/按钮2 使用 v-if/v-show 切换显示隐藏 show content1/show content2。
 
 `v-if` show content1：
-![v-if show content1](./img/home-component-if.png)
+![v-if show content1](https://github.com/fxss5201/vue-lifecycle/blob/master/img/home-component-if.png)
 
 `v-show` show content2：
-![v-show show content2](./img/home-component-show.png)
+![v-show show content2](https://github.com/fxss5201/vue-lifecycle/blob/master/img/home-component-show.png)
 
 **结论：**
 
