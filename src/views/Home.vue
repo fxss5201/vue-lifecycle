@@ -6,7 +6,7 @@
       <button @click="flagA = !flagA">home按钮A</button>
     </div>
     <div>
-      点击 home按钮B 使用 v-if 切换 home-b-component 的展示状态
+      点击 home按钮B 使用 v-show 切换 home-b-component 的展示状态
       <button @click="flagB = !flagB">home按钮B</button>
     </div>
     <home-a-component v-if="flagA" msg="vue-lifecycle-a-component"/>
