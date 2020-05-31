@@ -8,6 +8,40 @@
   </div>
 </template>
 
+<script>
+import appAMixin from '@/mixin/appAMixin'
+import appBMixin from '@/mixin/appBMixin'
+
+export default {
+  name: 'App',
+  mixins: [appAMixin, appBMixin],
+  beforeCreate () {
+    console.log(`route: ${this.$route.path} + app: beforeCreate`)
+  },
+  created () {
+    console.log(`route: ${this.$route.path} + app: created`)
+  },
+  beforeMount () {
+    console.log(`route: ${this.$route.path} + app: beforeMount`)
+  },
+  mounted () {
+    console.log(`route: ${this.$route.path} + app: mounted`)
+  },
+  beforeUpdate () {
+    console.log(`route: ${this.$route.path} + app: beforeUpdate`)
+  },
+  updated () {
+    console.log(`route: ${this.$route.path} + app: updated`)
+  },
+  beforeDestroy () {
+    console.log(`route: ${this.$route.path} + app: beforeDestroy`)
+  },
+  destroyed () {
+    console.log(`route: ${this.$route.path} + app: destroyed`)
+  }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
